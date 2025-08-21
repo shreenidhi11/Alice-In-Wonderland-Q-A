@@ -9,3 +9,11 @@ Steps to run this project on your machine
 2. Run the main.py file : uvicorn server:app --reload
 3. Run the streamlit UI: streamlit run app.py
 
+Technologies Used:
+
+	•	Programming Language: Python
+	•	LLM/Embedding API: gemini-2.5-flash
+	•	LangChain – for chaining embedding, vector store, and query operations
+	•	Hugging Face Transformers – model used is sentence-transformers/all-MiniLM-L6-v2
+	•	Streamlit - For User Interface
+	•	Redis - For caching similar or same user queries
