@@ -116,7 +116,7 @@ def get_user_query(question: Question):
 
     response = qa_chain.invoke({"query": user_query})
     store_answer_for_query(user_query, response["result"])
-    return {"User Query": response}
+    return {"User Query": response["result"]}
 
 
 
