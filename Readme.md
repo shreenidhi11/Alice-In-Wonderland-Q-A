@@ -7,5 +7,5 @@ Note: For accessing the LLM use your own LLM key for Gemini Flash 2.5
 Steps to run this project on your machine
 1. Run the requirements.txt file : pip -r requirements.txt
 2. Run the main.py file : uvicorn server:app --reload
+3. Run the streamlit UI: streamlit run app.py
 
-Note: You can change your question directly from the source code file (main.py).
